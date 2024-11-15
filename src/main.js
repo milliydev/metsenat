@@ -1,5 +1,5 @@
-import './assets/demo-files/main.css'
-import './assets/style.css'
+import './assets/main.css'
+import './assets/Iconmoon/style.css'
 import { createApp } from 'vue';
 import App from './App.vue';
 import router from './router';

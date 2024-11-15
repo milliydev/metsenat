@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?gdl9rj');
+  src:  url('fonts/icomoon.eot?gdl9rj#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?gdl9rj') format('truetype'),
+    url('fonts/icomoon.woff?gdl9rj') format('woff'),
+    url('fonts/icomoon.svg?gdl9rj#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-SearchIcon:before {
+  content: "\e900";
+}
+.icon-PersonIcon:before {
+  content: "\e901";
+  color: #f1f1f3;
+}
+.icon-loginIcon:before {
+  content: "\e902";
+  color: #b1b1b8;
+}
+.icon-FilterIcon:before {
+  content: "\e903";
+  color: #3365fc;
+}
+.icon-mustaicon .path1:before {
+  content: "\e904";
+  color: rgb(237, 114, 0);
+  opacity: 0.1;
+}
+.icon-mustaicon .path2:before {
+  content: "\e905";
+  margin-left: -1em;
+  color: rgb(237, 114, 0);
+}
+.icon-paidIcon .path1:before {
+  content: "\e906";
+  color: rgb(76, 111, 255);
+  opacity: 0.1;
+}
+.icon-paidIcon .path2:before {
+  content: "\e907";
+  margin-left: -1em;
+  color: rgb(76, 111, 255);
+}
+.icon-AskedIcon .path1:before {
+  content: "\e908";
+  color: rgb(237, 199, 0);
+  opacity: 0.1;
+}
+.icon-AskedIcon .path2:before {
+  content: "\e909";
+  margin-left: -1em;
+  color: rgb(237, 199, 0);
+}
