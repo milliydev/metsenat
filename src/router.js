@@ -1,8 +1,9 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import LoginForm from './components/LoginForm.vue';
-import DashboardPage from './components/DashboardPage.vue';
-import Students from './components/students.vue';
-import Sponsors from './components/Sponsors.vue';
+import DashboardPage from './components/pages/DashboardPage.vue';
+import Sponsors from './components/pages/Sponsors.vue';
+import Students from './components/pages/students.vue';
+
 
 
 const routes = [

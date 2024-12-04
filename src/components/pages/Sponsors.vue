@@ -1,21 +1,10 @@
 <script setup>
-import Topbar from './Topbar.vue';
+import Header from '../Header.vue';
+import Topbar from '../Topbar.vue';
 </script>
 <template>
   <main>
-    <header>
-      <div class="h-16 bg-white">
-        <div class="pt-3 px-32 flex justify-between container mx-auto">
-          <img src="/images/logoNavbar.svg" alt="" class="w-44" />
-          <button class="w-[133px] h-10 bg-[rgb(241,241,243)] rounded-md pr-8 pt-2 font-semibold	">Zohid
-          <div class="relative w-8 h-8 left-[90px] rounded -top-7 bg-[#00AE69] pt-1">
-            <i class="icon-personIcon text-center text-[#F1F1F3]"></i>
-          </div>
-          </button>
-          <i class="icon-loginIcon absolute right-20 top-5 text-2xl"></i>
-        </div>
-      </div>
-    </header>
+    <Header/>
     <Topbar />
   </main>
 
@@ -69,6 +58,7 @@ import Topbar from './Topbar.vue';
 
 </template>
 <script>
+
 export default {
   data() {
     return {
@@ -162,7 +152,6 @@ export default {
           date: "02.02.2021",
           status: "Moderatsiyada",
         },
-        // Add more items as needed
       ],
     };
   },

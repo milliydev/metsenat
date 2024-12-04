@@ -9,6 +9,7 @@ export default {
       colors: {
         blue100: '#3366FF',
         secondary: '#9333EA',
+        
       },
     },
   },
