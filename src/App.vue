@@ -2,9 +2,7 @@
   <div>
     <router-view />
   </div>
-  <Header/>
-
+  <Header />
 </template>
 
-<script>
-</script>
+<script></script>

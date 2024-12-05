@@ -11,8 +11,8 @@
     >
       <!-- Dinamik ikonka -->
       <div class="p-3 rounded-full text-white">
-        <span :class="[card.icon,]">
-           <span></span>
+        <span :class="[card.icon]">
+          <span></span>
         </span>
       </div>
       <div>
@@ -25,16 +25,31 @@
 </template>
 
 <script setup>
-import ApexChart from '../ApexChart.vue';
-import Header from '../Header.vue';
-import FilterModal from '../Students/FilterModal.vue';
-import Topbar from '../Topbar.vue';
+import ApexChart from "../ApexChart.vue";
+import Header from "../Header.vue";
+import FilterModal from "../Students/FilterModal.vue";
+import Topbar from "../Topbar.vue";
 
 // Kartalar ma'lumotlari
 const cards = [
-  { id: 1, label: "Jami to'langan summa", amount: "1 684 325 000", icon: "icon-paidIcon" },
-  { id: 2, label: "Jami so'ralgan summa", amount: "14 098 530 000", icon: "icon-requestedIcon" },
-  { id: 3, label: "To'lanishi kerak summa", amount: "12 414 205 000", icon: "icon-dueIcon" },
+  {
+    id: 1,
+    label: "Jami to'langan summa",
+    amount: "1 684 325 000",
+    icon: "icon-paidIcon",
+  },
+  {
+    id: 2,
+    label: "Jami so'ralgan summa",
+    amount: "14 098 530 000",
+    icon: "icon-requestedIcon",
+  },
+  {
+    id: 3,
+    label: "To'lanishi kerak summa",
+    amount: "12 414 205 000",
+    icon: "icon-dueIcon",
+  },
 ];
 </script>
 

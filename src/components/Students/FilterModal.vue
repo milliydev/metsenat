@@ -1,6 +1,3 @@
 <template>
-    <header>
-       
-    </header>
-  </template>
-  
+  <header></header>
+</template>
