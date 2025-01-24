@@ -5,4 +5,3 @@
   <Header />
 </template>
 
-<script></script>

@@ -1,14 +1,10 @@
 <template>
   <main>
     <Header />
-    <Topbar />
+    <ToolBar />
   </main>
   <div class="flex space-x-14 p-10 justify-center">
-    <div
-      v-for="card in cards"
-      :key="card.id"
-      class="flex bg-white rounded-lg shadow-md p-4 space-x-4 w-96"
-    >
+    <div v-for="card in cards" :key="card.id" class="flex bg-white rounded-lg shadow-md p-4 space-x-4 w-96">
       <!-- Dinamik ikonka -->
       <div class="p-3 rounded-full text-white">
         <span :class="[card.icon]">
@@ -27,8 +23,7 @@
 <script setup>
 import ApexChart from "../ApexChart.vue";
 import Header from "../Header.vue";
-import FilterModal from "../Students/FilterModal.vue";
-import Topbar from "../Topbar.vue";
+import ToolBar from "../ToolBar.vue"
 
 // Kartalar ma'lumotlari
 const cards = [
@@ -54,5 +49,4 @@ const cards = [
 </script>
 
 <style scoped>
-/* Agar maxsus rang yoki ikonka uslubi kerak bo'lsa, bu yerda belgilashingiz mumkin. */
 </style>

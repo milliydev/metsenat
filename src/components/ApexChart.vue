@@ -6,10 +6,9 @@
     </div>
   </div>
 </template>
-
 <script setup>
 import { ref } from "vue";
-
+3
 const series = ref([
   {
     name: "Homiylar",
@@ -64,7 +63,7 @@ const chartOptions = ref({
   legend: {
     position: "top",
     horizontalAlign: "left",
-  }, 
+  },
 });
 </script>
 

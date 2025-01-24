@@ -1,10 +1,10 @@
 <template>
   <main>
     <Header />
-    <Topbar />
+    <ToolBar/>
   </main>
-  <div class="overflow-x-auto py-6">
-    <table class="w-5/6 mx-auto">
+  <div class="overflow-x-auto">
+    <table class="w-5/6 mx-auto border-separate border-spacing-y-4">
       <thead>
         <tr class="bg-gray-100 text-gray-600 uppercase text-sm">
           <th class="py-4 px-6 text-left">#</th>
@@ -21,8 +21,7 @@
         <tr
           v-for="(item, index) in items"
           :key="index"
-          class="border-b border-gray-200 hover:bg-gray-100 mb-36 bg-white leading-6 rounded-xl"
-        >
+          class="bg-white shadow-md">
           <td class="py-3 px-6">{{ index + 1 }}</td>
           <td class="py-3 px-6">{{ item.name }}</td>
           <td class="py-3 px-6">{{ item.phone }}</td>
@@ -61,7 +60,7 @@
 
 <script setup>
 import Header from "../Header.vue";
-import Topbar from "../Topbar.vue";
+import ToolBar from "../ToolBar.vue"
 </script>
 
 <script>
