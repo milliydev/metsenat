@@ -14,7 +14,7 @@
       <div>
         <p class="text-sm text-gray-500">{{ card.label }}</p>
         <p class="text-xl font-bold text-gray-700">{{ card.amount }} UZS</p>
-      </div>
+      </div>  
     </div>
   </div>
   <ApexChart />
@@ -25,7 +25,6 @@ import ApexChart from "../ApexChart.vue";
 import Header from "../Header.vue";
 import ToolBar from "../ToolBar.vue"
 
-// Kartalar ma'lumotlari
 const cards = [
   {
     id: 1,
@@ -47,6 +46,5 @@ const cards = [
   },
 ];
 </script>
-
 <style scoped>
 </style>
